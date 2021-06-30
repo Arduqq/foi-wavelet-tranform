@@ -1,8 +1,7 @@
-import numpy as np
-import pywt
-from matplotlib import pyplot as plt
-from scipy.stats import norm, entropy
-import numpy as np
+import numpy as np # Image processing
+import pywt # Wavelet transformation
+from matplotlib import pyplot as plt # Plotting
+from scipy.stats import norm, entropy # Curve fitting and distance measurement
 
 def compute_coefficients(im, level): 
     # Wavelet transformation
